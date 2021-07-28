@@ -26,10 +26,10 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon menu-icon"><i class="fas fa-bars"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
                             <li class="nav-item">
                                 <a class="nav-link " href="#">Home</a>
                             </li>
@@ -48,13 +48,13 @@
             </nav>
         </section>
         <section id="hero-content">
-            <div class="container">
-                <div class="row d-flex justify-content-evenly align-items-center">
+            <div class="container py-5">
+                <div class="hero-container row d-flex justify-content-between align-items-center gx-5">
                     <div class="col-md-6 hero-left">
                         <img src="assets/images/hero_img.png" class="img-fluid" width="100%" alt="">
                     </div>
                     <div class="col-md-6 hero-right">
-                        <div class="hero-right-content ms-md-4">
+                        <div class="hero-right-content ">
                             <h1 class="hero-text display-1  fw-bold">
                                 <span class="color-herotext">Nike React</span><br> Infinity Run 2
                             </h1>
@@ -72,9 +72,9 @@
         <section id="shoes1" class="mt-5">
             <div class="container">
                 <h1 class="heading my-2 text-uppercase">Casual Shoes</h1>
-                <div class="shoe-cards">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
+                <div class="shoe-cards d-flex justify-content-center">
+                    <div class="row row-cols-1 row-cols-lg-3 g-4">
+                        <div class="col cards-col">
                             <div class="card">
                                 <div class="card-img">
                                     <img src="assets/images/s2.png" class="card-img-top" width="311" alt="...">
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col cards-col">
                             <div class="card">
                                 <div class="card-img">
                                     <img src="assets/images/s1.png" class="card-img-top" width="311" alt="...">
@@ -118,7 +118,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col cards-col">
                             <div class="card">
                                 <div class="card-img">
                                     <img src="assets/images/s3.png" class="card-img-top" width="311" alt="...">
@@ -146,10 +146,10 @@
         </section>
         <section id="shoes2" class="my-5">
             <div class="container">
-                <h1 class="heading my-2 text-uppercase">Formal Shoes</h1>
-                <div class="shoe-cards">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
+                <h1 class="heading my-2 text-uppercase ">Formal Shoes</h1>
+                <div class="shoe-cards d-flex justify-content-center">
+                    <div class="row row-cols-1 row-cols-lg-3 g-4">
+                        <div class="col cards-col">
                             <div class="card">
                                 <img src="assets/images/Mask-roup.png" class="card-img-top" width="311" alt="...">
                                 <div class="card-body">
@@ -167,7 +167,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col cards-col">
                             <div class="card">
                                 <img src="assets/images/Rectangle.png" class="card-img-top" width="311" alt="...">
                                 <div class="card-body">
@@ -185,7 +185,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col cards-col">
                             <div class="card">
                                 <img src="assets/images/Rectangle39.png" class="card-img-top" width="311" alt="...">
                                 <div class="card-body">
@@ -211,34 +211,37 @@
             <h1 class="heading">
                 ABOUT US
             </h1>
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-md-6 about-left w-50">
-                    <div class="about-content ">
-                        <div class="content1 d-flex justify-content-between">
+            <div class="row about-full d-flex justify-content-between align-items-center">
+                <div class="col-md-6 about-left">
+                    <div class="d-flex justify-content-center">
+                        <div class="about-content">
+                        <div class="content1 d-sm-flex justify-content-between">
                             <img src="assets/icons/image14.png" width="78" height="82" alt="">
-                            <div>
+                            <div class="ms-md-5">
                                 <h4>Contact Our Seller</h4>
                                 <p class="text-justify">They are here to help you. That's quite
                                     literally what we pay them for.</p>
                             </div>
                         </div>
-                        <div class="content2 d-flex justify-content-between">
+                        <div class="content2 d-sm-flex justify-content-between">
                             <img src="assets/icons/image13.png" width="78" height="82" alt="">
-                            <div>
+                            <div class="ms-md-5">
                                 <h4>Free Exchanges</h4>
                                 <p class="text-justify">They are here to help you. That's quite
                                     literally what we pay them for.</p>
                             </div>
                         </div>
-                        <div class="content3 d-flex justify-content-between">
+                        <div class="content3 d-sm-flex justify-content-between align-items-center">
                             <img src="assets/icons/image12.png" width="78" height="82" alt="">
-                            <div>
+                            <div class="ms-md-5">
                                 <h4>Find the Perfect Fit</h4>
                                 <p class="text-justify">They are here to help you. That's quite
                                     literally what we pay them for.</p>
                             </div>
                         </div>
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col-md-6 about-right">
                     <div>

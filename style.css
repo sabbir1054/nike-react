@@ -1,28 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-.heading{
-   font-family: 'Bebas Neue';
-   color: #363958;
-   font-size: 45px;
+
+.heading {
+    font-family: 'Bebas Neue';
+    color: #363958;
+    font-size: 45px;
 }
+
 header {
     background-color: #FFF9F4;
     margin-bottom: 15vh;
 }
+
 .nav-link {
     font-size: 20px;
     color: black;
     margin: 5px 25px;
 }
 
-.hero-text{
+.hero-left img,
+.hero-right-content {
+    padding: 0 25px;
+}
+
+.hero-text {
     font-family: 'Bebas Neue';
     color: #363958;
 }
-.hero-text .color-herotext{
+
+.hero-text .color-herotext {
     color: #FA804C;
 }
 
-.buy-btn{
+.buy-btn {
     font-size: 18px;
     background-color: #3644C1;
     color: white;
@@ -31,7 +40,7 @@ header {
     border-radius: 10px;
 }
 
-.card{
+.card {
     width: 370px;
     height: 625px;
     display: flex;
@@ -40,16 +49,136 @@ header {
     border-radius: 20px;
     box-shadow: 2px 2px 40px #d2cfcf;
 }
-.card-img img{
+
+.card-img img {
     width: 80%;
     background-color: #F1F1F1;
     margin: 10%;
     border-radius: 20px;
-    
+
 }
-.price h2{
+
+.price h2 {
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     color: #FA804C;
 }
+
+/* ================
+  Responsive Style section
+=========================== */
+/* X-Small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px) {
+    .menu-icon {
+        font-size: 16px;
+        color: black;
+        border: none;
+        outline: none;
+    }
+
+    .nav-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-container {
+        flex-flow: column-reverse;
+    }
+
+    .hero-left img {
+        width: 85%;
+    }
+
+    .cards-col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .about-full {
+        flex-flow: column-reverse;
+    }
+
+    .content1,
+    .content2,
+    .content3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 20px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu-icon {
+        font-size: 16px;
+        color: black;
+        border: none;
+        outline: none;
+    }
+
+    .nav-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-container {
+        flex-flow: column-reverse;
+    }
+
+    .hero-left img {
+        width: 85%;
+    }
+
+    .cards-col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .about-full {
+        flex-flow: column-reverse;
+    }
+
+    .content1,
+    .content2,
+    .content3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px 20px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .heading {
+        text-align: center;
+    }
+    .cards-col {
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
+@media (min-width: 1400px) {}
