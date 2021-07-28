@@ -33,11 +33,12 @@ header {
 
 .card{
     width: 370px;
-    height: 650px;
+    height: 625px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    box-shadow: 2px 2px 40px #d2cfcf;
 }
 .card-img img{
     width: 80%;
