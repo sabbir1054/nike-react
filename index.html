@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike React</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7e95b83dde.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,7 +16,236 @@
 </head>
 
 <body>
-    <h1>Hi I am Sabbir Hossain</h1>
+    <header>
+        <section id="manuBar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/icons/Logo.png" width="290" height="40" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section id="hero-content">
+            <div class="container">
+                <div class="row d-flex justify-content-evenly align-items-center">
+                    <div class="col-md-6 hero-left">
+                        <img src="assets/images/hero_img.png" class="img-fluid" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6 hero-right">
+                        <div class="hero-right-content ms-md-4">
+                            <h1 class="hero-text">
+                                <span>Nike React</span><br> Infinity Run 2
+                            </h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum odit, consequuntur sunt
+                                corporis consequatur itaque numquam expedita tempore consectetur officia.
+                            </p>
+                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="shoes1" class="mt-5">
+            <div class="container">
+                <h1 class="heading my-2 text-uppercase">Casual Shoes</h1>
+                <div class="shoe-cards">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/image.png" class="card-img-top" width="311" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Shoe</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="price">
+                                            <h2>$234</h2>
+                                        </span>
+                                        <span>
+                                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY
+                                                NOW</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/Daco_1703273.png" class="card-img-top" width="311" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sneakers Skate Shoe </h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="price">
+                                            <h2>$234</h2>
+                                        </span>
+                                        <span>
+                                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY
+                                                NOW</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/pngegg.png" class="card-img-top" width="311" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sneakers Basketball shoe</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This card has even longer content than the first
+                                        to
+                                        show that equal height action.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="price">
+                                            <h2>$234</h2>
+                                        </span>
+                                        <span>
+                                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY
+                                                NOW</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shoes2" class="mt-5">
+            <div class="container">
+                <h1 class="heading my-2 text-uppercase">Formal Shoes</h1>
+                <div class="shoe-cards">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/Mask-roup.png" class="card-img-top" width="311" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nike Shoe</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="price">
+                                            <h2>$234</h2>
+                                        </span>
+                                        <span>
+                                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY
+                                                NOW</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/Rectangle.png" class="card-img-top" width="311" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sneakers Skate Shoe </h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="price">
+                                            <h2>$234</h2>
+                                        </span>
+                                        <span>
+                                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY
+                                                NOW</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/Rectangle39.png" class="card-img-top" width="311" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sneakers Basketball shoe</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This card has even longer content than the first
+                                        to
+                                        show that equal height action.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="price">
+                                            <h2>$234</h2>
+                                        </span>
+                                        <span>
+                                            <button class="btn btn-primary"><i class="fas fa-shopping-cart me-2"></i>BUY
+                                                NOW</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="container">
+            <h1 class="heading">
+                ABOUT US
+            </h1>
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-6 about-left w-50">
+                    <div class="about-content ">
+                        <div class="content1 d-flex justify-content-between">
+                            <img src="assets/icons/image14.png" width="78" height="82" alt="">
+                            <div>
+                                <h4>Contact Our Seller</h4>
+                                <p class="text-justify">They are here to help you. That's quite
+                                    literally what we pay them for.</p>
+                            </div>
+                        </div>
+                        <div class="content2 d-flex justify-content-between">
+                            <img src="assets/icons/image13.png" width="78" height="82" alt="">
+                            <div>
+                                <h4>Free Exchanges</h4>
+                                <p class="text-justify">They are here to help you. That's quite
+                                    literally what we pay them for.</p>
+                            </div>
+                        </div>
+                        <div class="content3 d-flex justify-content-between">
+                            <img src="assets/icons/image12.png" width="78" height="82" alt="">
+                            <div>
+                                <h4>Find the Perfect Fit</h4>
+                                <p class="text-justify">They are here to help you. That's quite
+                                    literally what we pay them for.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 about-right">
+                    <div>
+                        <img src="assets/icons/XMLID.png" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
