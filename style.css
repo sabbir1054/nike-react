@@ -30,3 +30,25 @@ header {
     height: 60px;
     border-radius: 10px;
 }
+
+.card{
+    width: 370px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.card-img img{
+    width: 80%;
+    background-color: #F1F1F1;
+    margin: 10%;
+    border-radius: 20px;
+    
+}
+.price h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FA804C;
+}
