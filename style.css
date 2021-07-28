@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.heading{
+   font-family: 'Bebas Neue';
+   color: #363958;
+   font-size: 45px;
+}
+header {
+    background-color: #FFF9F4;
+    margin-bottom: 15vh;
+}
+.nav-link {
+    font-size: 20px;
+    color: black;
+    margin: 5px 25px;
+}
+
+.hero-text{
+    font-family: 'Bebas Neue';
+    color: #363958;
+}
+.hero-text .color-herotext{
+    color: #FA804C;
+}
+
+.buy-btn{
+    font-size: 18px;
+    background-color: #3644C1;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+}
